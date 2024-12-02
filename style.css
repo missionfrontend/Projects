@@ -1,0 +1,343 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.header {
+    background-image: url("../huddle-landing-page-with-alternating-feature-blocks-master/images/bg-hero-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 1rem;
+}
+
+.nav_logo img {
+    width: 50%;
+}
+
+.nav_link a {
+    padding: .5rem 3rem;
+    background-color: rgb(255, 250, 250);
+    border-radius: 100px;
+    box-shadow: 4px 8px 5px hsla(180, 2%, 70%, 0.807);
+    font-family: "Open Sans", serif;
+    text-decoration: none;
+    color: hsl(192, 100%, 9%);
+    font-size: large;
+    font-weight: bold;
+    transition: all .3s;
+}
+
+.nav_link a:hover {
+    background-color: rgb(215, 72, 117);
+    color: white;
+}
+
+.header_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+    font-family: "Open Sans", serif;
+    padding: 2rem;
+}
+
+.header_container--1 {
+    width: 90%;
+    text-align: center;
+}
+
+.header_container--1 h1 {
+    font-size: 35px;
+    color: hsl(192, 100%, 9%);
+    font-weight: 700;
+}
+
+.header_container--1 p {
+    font-size: 20px;
+    color: hsl(192, 100%, 9%);
+    margin-top: 2rem;
+}
+
+.btn {
+    margin-top: 4rem;
+}
+
+.btn a {
+    padding: 1rem 3rem;
+    background-color: hsl(322, 100%, 66%);
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 100px;
+    transition: all .3s;
+}
+
+.btn a:hover {
+    background-color: rgb(224, 57, 85);
+}
+
+.header_img {
+    display: flex;
+    justify-content: center;
+}
+
+.header_img img {
+    width: 90%;
+    margin-top: 5rem;
+
+}
+
+main {
+    background-color: hsl(193, 100%, 96%);
+
+    padding: 3rem 0;
+}
+
+/* .section{
+    font-family: "Open Sans", sans-serif;
+} */
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    padding: 2rem 3rem;
+    margin: 2rem 3rem;
+    border-radius: 10px;
+    height: 25rem;
+    text-align: center;
+    box-shadow: 8px 8px 8px hsl(200, 2%, 65%);
+    font-family: "Open Sans", sans-serif;
+    gap: 5px;
+    margin-top: 5rem;
+    
+}
+
+.section_grow--image {
+    width: 50%;
+    margin-bottom: 2rem;
+}
+
+.section_header {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.section_header h1 {
+    color: #333;
+}
+.section_users{
+    margin-bottom: 7rem;
+}
+/* Footer-style */
+
+.footer{
+    background-color: hsl(192, 100%, 9%);
+    padding-top: 11rem;
+    padding-bottom: 4rem;
+}
+.footer_upper{
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 1.5rem;
+    color: white;
+    padding: 0 2rem;
+    
+}
+.footer_upper svg{
+    
+    width: 80%;
+    margin-bottom: 1rem;
+}
+.footer_icon{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    
+}
+.footer_icon img{
+    height: 20px;
+}
+.footer_middle{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem 2rem;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+.footer_middle a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.footer_bottom{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.footer_bottom svg{
+    border: 1px solid white;
+    border-radius: 200px;
+    padding: .3rem;
+}
+
+.copyright{
+    color: white;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: small;
+    margin-top: 2rem;
+}
+.community{
+  position: absolute;
+  left: 4%;
+  margin-bottom: 5rem;
+  margin-top: -7rem;
+  z-index: 10;
+}
+.community_container{
+    background-color: gray;
+    display: inline-block;
+    
+    padding: 4rem 2rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    box-shadow: 8px 8xp #333;
+    height: 5rem;
+    background-color: white;
+    
+    
+}
+
+.community_container a{
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    text-decoration: none;
+    padding: 1rem 3rem;
+    border-radius: 100px;
+    transition: all .3s;
+}
+.community_container a:hover{
+    background-color: rgb(215, 78, 101);
+}
+
+
+
+
+
+
+
+@media (min-width: 1440px) {
+    .header {
+        background-image: url("../huddle-landing-page-with-alternating-feature-blocks-master/images/bg-hero-desktop.svg"), ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: hsl(192, 46%, 45%);
+    }
+
+    .header_container {
+        flex-direction: row;
+    }
+
+    .header_container--1 {
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: left;
+        width: 50%;
+        padding: 0 3rem;
+        margin-top: 0;
+    }
+
+    .header_container--1 h1 {
+        width: 80%;
+    }
+
+    .section {
+        text-align: left;
+        padding: .5rem 5rem;
+    }
+
+    .section:nth-child(odd) {
+        flex-direction: row-reverse;
+    }
+
+    .section:nth-child(even) {
+        flex-direction: row;
+        
+    }
+
+    .section_header {
+        margin: 0 3rem;
+
+    }
+
+    .section_header p {
+        width: 70%;
+        
+    }
+
+    .section_grow--image {
+        width: 35%;
+    }
+    .footer{
+        display: flex;
+        flex-direction: row;
+        
+        position: relative;
+        justify-content: space-between;
+    }
+    .footer_upper{
+        width: 30%;
+        margin-left: 2rem;
+    }
+    .footer_middle{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-row: auto;
+        gap: 2rem;
+        padding: 1rem 1rem;
+        align-self: center;
+        margin-right: 10rem;
+    }
+    .footer_middle a{
+        font-size: 15px;
+    }
+    .footer_bottom{
+        
+        margin-top: 4.5rem;
+        margin-right: 5rem;
+    }
+    .copyright{
+        bottom: 2rem;
+        position: absolute;
+        right: 2rem;
+    }
+    .community{
+        left: 33%;
+    }
+    .community_container{
+        height: 3rem;
+        width: 100%;
+    }
+}
